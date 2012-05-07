@@ -90,6 +90,9 @@ There's 3 ways to run this suite:
    bin/behat -p=subcontexts
    ```
 
+You must choose between those 3 ways right now just for their demonstration. In reality,
+Behat supports them simultaneously and you can mix them together.
+
 ### Selenium WebDriver
 
 If you want to test `@javascript` part of feature, you'll need to install Selenium.
