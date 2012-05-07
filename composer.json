@@ -1,0 +1,21 @@
+{
+    "require": {
+        "behat/behat":           "2.4.0beta2",
+        "behat/mink":            "1.4.0beta2",
+        "behat/mink-extension":  "dev-master",
+
+        "fabpot/goutte":           "*",
+        "facebook/php-webdriver":  "*"
+    },
+
+    "repositories": {
+        "behat/mink-deps": {
+            "type":  "composer",
+            "url":   "behat.org"
+        }
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    }
+}

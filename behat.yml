@@ -1,0 +1,7 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:            'http://en.wikipedia.org/'
+      javascript_session:  'selenium2'
+      goutte:              ~
+      selenium2:           ~
