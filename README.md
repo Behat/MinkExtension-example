@@ -33,6 +33,29 @@ Now to launch Behat, just run:
 bin/behat
 ```
 
+There's 3 ways to run this suite:
+
+1. Using `TraitedFeatureContext`, which leverages php5.4 traits
+   for clean reusability. If you have php5.4 installed, just call:
+
+   ``` bash
+   bin/behat -p=traits
+   ```
+
+2. Using `SimpleFeatureContext`, which uses inheritance mechanism to
+   get predefined step definitions. If you prefer 5.3 and inheritance, just call:
+
+   ``` bash
+   bin/behat -p=inheritance
+   ```
+
+3. Using `SubcontextedFeatureContext`, which uses subcontexts mechanism to
+   get predefined step definitions. If you prefer 5.3 and subcontexts, just call:
+
+   ``` bash
+   bin/behat -p=subcontexts
+   ```
+
 Launch Behat: the two first scenarios should use Goutte.
 The third one checks that the JS autocomplete field works on wikipedia: it uses Selenium WebDriver!
 but lets ignore it for a quick start with `--tags` filter:

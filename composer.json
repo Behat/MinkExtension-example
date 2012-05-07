@@ -1,6 +1,6 @@
 {
     "require": {
-        "behat/behat":           "2.4.0beta2",
+        "behat/behat":           "2.4.0beta3",
         "behat/mink":            "1.4.0beta2",
         "behat/mink-extension":  "dev-master",
 

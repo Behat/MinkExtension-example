@@ -1,7 +1,21 @@
 default:
+  context:
+    class: InheritedFeatureContext
   extensions:
     Behat\MinkExtension\Extension:
       base_url:            'http://en.wikipedia.org/'
       javascript_session:  'selenium2'
       goutte:              ~
       selenium2:           ~
+
+inheritance:
+  context:
+    class: InheritedFeatureContext
+
+traits:
+  context:
+    class: TraitedFeatureContext
+
+subcontexts:
+  context:
+    class: SubcontextedFeatureContext

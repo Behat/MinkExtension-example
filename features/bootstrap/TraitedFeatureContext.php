@@ -1,6 +1,6 @@
 <?php
 
-class FeatureContext extends Behat\Behat\Context\BehatContext
+class TraitedFeatureContext extends Behat\Behat\Context\BehatContext
 {
     use Behat\MinkExtension\Context\MinkDictionary;
 
