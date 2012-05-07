@@ -17,7 +17,7 @@ Read [this article](http://knplabs.com/en/blog/one-mink-to-rule-them-all) to kno
 Clone this repo:
 
 ``` bash
-git clone https://github.com/KnpLabs/mink-demo
+git clone https://github.com/Behat/MinkExtension-example
 ```
 
 Now install Behat, Mink, MinkExtension and their dependencies with [composer](http://getcomposer.org/):
