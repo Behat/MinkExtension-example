@@ -8,8 +8,6 @@ It defines a basic API through which you can talk with specific browser emulator
 
 Mink drivers define a bridge between Mink and those libraries.
 
-Read [this article](http://knplabs.com/en/blog/one-mink-to-rule-them-all) to know more about Mink.
-
 **This repository will allow you to easily try Mink and Behat to test… wikipedia.org!**
 
 ## Usage 
