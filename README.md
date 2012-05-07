@@ -65,7 +65,7 @@ Feature: Search
 8 steps (8 passed)
 ```
 
-## Different types of contexts
+### Different types of contexts
 
 There's 3 ways to run this suite:
 
