@@ -61,8 +61,8 @@ Feature: Search
     And I press "searchButton"
     Then I should see "Search results"
 
-3 scenarios (3 passed)
-12 steps (12 passed)
+2 scenarios (2 passed)
+8 steps (8 passed)
 ```
 
 ### Selenium WebDriver
