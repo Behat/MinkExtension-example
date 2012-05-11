@@ -1,22 +1,32 @@
 default:
   context:
-    class: InheritedFeatureContext
+    class:  'InheritedFeatureContext'
   extensions:
     Behat\MinkExtension\Extension:
-      base_url:   'http://en.wikipedia.org/'
-      goutte:     ~
-      selenium2:  ~
+      base_url:  'http://en.wikipedia.org/'
+      goutte:    ~
+      selenium2: ~
 
+# No context:
+no_context:
+  paths:
+    bootstrap: 'NON_EXISTING_FOLDER'
+  filters:
+    tags:      '~@javascript'
+
+# Context based on inheritance:
 inheritance:
   context:
-    class: InheritedFeatureContext
+    class:      'InheritedFeatureContext'
 
+# Context based on traits:
 traits:
   paths:
-    bootstrap: features/php54_bootstrap
+    bootstrap:  'features/php54_bootstrap'
   context:
-    class: TraitedFeatureContext
+    class:      'TraitedFeatureContext'
 
+# Context based on subcontexting:
 subcontexts:
   context:
-    class: SubcontextedFeatureContext
+    class:      'SubcontextedFeatureContext'

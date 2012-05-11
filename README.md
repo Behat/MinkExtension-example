@@ -65,7 +65,7 @@ Feature: Search
 
 ### Different types of contexts
 
-There's 3 ways to run this suite:
+There's 4 ways to run this suite:
 
 1. Using `TraitedFeatureContext`, which leverages php5.4 traits
    for clean reusability. If you have php5.4 installed, just call:
@@ -88,7 +88,16 @@ There's 3 ways to run this suite:
    bin/behat -p=subcontexts
    ```
 
-You must choose between those 3 ways right now just for their demonstration. In reality,
+4. Using no context. This way will use default context from extension, giving you
+   ability to avoid context creation altogether. Profile `no_context` uses non-existing
+   `bootstrap` path, so Behat will not be able to find any context class and will use
+   defaul `Behat\MinkExtension\Context\MinkContext`:
+
+   ``` bash
+   bin/behat -p=no_context
+   ```
+
+You must choose between those 4 ways right now just for their demonstration. In reality,
 Behat supports them simultaneously and you can mix them together.
 
 ### Selenium WebDriver
