@@ -3,16 +3,17 @@ default:
     class: InheritedFeatureContext
   extensions:
     Behat\MinkExtension\Extension:
-      base_url:            'http://en.wikipedia.org/'
-      javascript_session:  'selenium2'
-      goutte:              ~
-      selenium2:           ~
+      base_url:   'http://en.wikipedia.org/'
+      goutte:     ~
+      selenium2:  ~
 
 inheritance:
   context:
     class: InheritedFeatureContext
 
 traits:
+  paths:
+    bootstrap: features/php54_bootstrap
   context:
     class: TraitedFeatureContext
 
