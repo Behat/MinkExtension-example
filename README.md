@@ -105,7 +105,7 @@ Behat supports them simultaneously and you can mix them together.
 If you want to test `@javascript` part of feature, you'll need to install Selenium.
 Selenium gives you ability to run `@javascript` tagged scenarios in real browser.
 
-1. Download latest Selenium2 jar from the [http://seleniumhq.org/download/](Selenium website)
+1. Download latest Selenium2 jar from the [Selenium website](http://seleniumhq.org/download/)
 2. Run selenium jar with:
 
     ``` bash
