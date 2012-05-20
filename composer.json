@@ -1,18 +1,11 @@
 {
     "require": {
-        "behat/behat":           "2.4.0beta5",
-        "behat/mink":            "1.4.0beta2",
-        "behat/mink-extension":  "dev-master",
+        "behat/behat":               "2.4@stable",
+        "behat/mink":                ">=1.4.0beta4,<1.4.x-dev",
+        "behat/mink-extension":      "dev-master",
 
-        "fabpot/goutte":           "*",
-        "facebook/php-webdriver":  "*"
-    },
-
-    "repositories": {
-        "behat/mink-deps": {
-            "type":  "composer",
-            "url":   "behat.org"
-        }
+        "fabpot/goutte":             "*",
+        "instaclick/php-webdriver":  "*"
     },
 
     "config": {
