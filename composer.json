@@ -1,10 +1,10 @@
 {
     "require": {
         "behat/behat":           "2.4@stable",
-        "behat/mink-extension":  "dev-master",
+        "behat/mink-extension":  "*",
 
-        "fabpot/goutte":             "*",
-        "instaclick/php-webdriver":  "*"
+        "behat/mink-goutte-driver":     "*",
+        "behat/mink-selenium2-driver":  "*"
     },
 
     "config": {
