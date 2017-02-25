@@ -1,9 +1,11 @@
 {
+    "name": "behat/mink-extension-example",
+    "description": "Example of Behat 2.4 + Mink 1.4 + MinkExtension usage",
     "require": {
-        "behat/behat":           "2.4@stable",
-        "behat/mink-extension":  "*",
-        "behat/mink-goutte-driver":     "*",
-        "behat/mink-selenium2-driver":  "*"
+        "behat/behat": "2.4@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*"
     },
     "minimum-stability": "dev",
     "config": {
